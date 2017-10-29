@@ -16,6 +16,9 @@
     <Filter Include="atomblock">
       <UniqueIdentifier>{09ea03d3-1864-429a-af7c-f6500c084c40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="surface">
+      <UniqueIdentifier>{6ffb2fa1-d466-42a3-bba4-a35eead016b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,8 +33,8 @@
     <ClInclude Include="AtomBlockBase.h">
       <Filter>atomblock</Filter>
     </ClInclude>
-    <ClInclude Include="SurfaceBase.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="surface\base\SurfaceBase.h">
+      <Filter>surface</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -44,8 +47,8 @@
     <ClCompile Include="AtomBlockBase.cpp">
       <Filter>atomblock</Filter>
     </ClCompile>
-    <ClCompile Include="SurfaceBase.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="surface\base\SurfaceBase.cpp">
+      <Filter>surface</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
