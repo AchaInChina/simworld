@@ -13,11 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="atomblock">
-      <UniqueIdentifier>{09ea03d3-1864-429a-af7c-f6500c084c40}</UniqueIdentifier>
-    </Filter>
     <Filter Include="surface">
       <UniqueIdentifier>{6ffb2fa1-d466-42a3-bba4-a35eead016b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surface\base">
+      <UniqueIdentifier>{e0b5954e-f6ab-4776-9936-4aacbebc1c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="surface\solid">
+      <UniqueIdentifier>{6c82c84a-268c-4853-ab40-791e8de95745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="block">
+      <UniqueIdentifier>{09ea03d3-1864-429a-af7c-f6500c084c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="block\base">
+      <UniqueIdentifier>{da5f98a6-8077-4551-8b6c-997ee59f45d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="block\solid">
+      <UniqueIdentifier>{6755e088-c116-4481-8608-3588dc977ff9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,11 +42,23 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AtomBlockBase.h">
-      <Filter>atomblock</Filter>
-    </ClInclude>
     <ClInclude Include="surface\base\SurfaceBase.h">
+      <Filter>surface\base</Filter>
+    </ClInclude>
+    <ClInclude Include="surface\EarthSurface.h">
       <Filter>surface</Filter>
+    </ClInclude>
+    <ClInclude Include="block\base\AtomBlockBase.h">
+      <Filter>block\base</Filter>
+    </ClInclude>
+    <ClInclude Include="surface\solid\SolidSurface.h">
+      <Filter>surface\solid</Filter>
+    </ClInclude>
+    <ClInclude Include="block\solid\SolidBlock.h">
+      <Filter>block\solid</Filter>
+    </ClInclude>
+    <ClInclude Include="block\EarthBlock.h">
+      <Filter>block</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +68,23 @@
     <ClCompile Include="RealWorld.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AtomBlockBase.cpp">
-      <Filter>atomblock</Filter>
-    </ClCompile>
     <ClCompile Include="surface\base\SurfaceBase.cpp">
+      <Filter>surface\base</Filter>
+    </ClCompile>
+    <ClCompile Include="surface\EarthSurface.cpp">
       <Filter>surface</Filter>
+    </ClCompile>
+    <ClCompile Include="block\base\AtomBlockBase.cpp">
+      <Filter>block\base</Filter>
+    </ClCompile>
+    <ClCompile Include="surface\solid\SolidSurface.cpp">
+      <Filter>surface\solid</Filter>
+    </ClCompile>
+    <ClCompile Include="block\solid\SolidBlock.cpp">
+      <Filter>block\solid</Filter>
+    </ClCompile>
+    <ClCompile Include="block\EarthBlock.cpp">
+      <Filter>block</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
