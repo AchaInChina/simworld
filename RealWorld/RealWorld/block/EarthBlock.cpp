@@ -1,5 +1,5 @@
 #include "EarthBlock.h"
-#include "..\..\surface\EarthSurface.h"
+#include "..\surface\EarthSurface.h"
 
 EarthBlock::EarthBlock()
 {

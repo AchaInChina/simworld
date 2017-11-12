@@ -23,13 +23,13 @@
     <ProjectGuid>{7967AD09-BFD6-415F-94E2-808317F64BFB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>RealWorld</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -145,6 +145,8 @@
     <ClInclude Include="block\base\AtomBlockBase.h" />
     <ClInclude Include="block\EarthBlock.h" />
     <ClInclude Include="block\solid\SolidBlock.h" />
+    <ClInclude Include="map\map\MapNodeGrid.h" />
+    <ClInclude Include="map\node\nodebase\NodeBase.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="surface\base\SurfaceBase.h" />
     <ClInclude Include="surface\EarthSurface.h" />
@@ -155,6 +157,8 @@
     <ClCompile Include="block\base\AtomBlockBase.cpp" />
     <ClCompile Include="block\EarthBlock.cpp" />
     <ClCompile Include="block\solid\SolidBlock.cpp" />
+    <ClCompile Include="map\map\MapNodeGrid.cpp" />
+    <ClCompile Include="map\node\nodebase\NodeBase.cpp" />
     <ClCompile Include="RealWorld.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="surface\base\SurfaceBase.cpp" />

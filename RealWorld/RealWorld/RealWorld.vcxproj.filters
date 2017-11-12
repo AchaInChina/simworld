@@ -31,6 +31,18 @@
     <Filter Include="block\solid">
       <UniqueIdentifier>{6755e088-c116-4481-8608-3588dc977ff9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{35f72df2-f3c9-432b-a9bb-45a124c6577c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\node">
+      <UniqueIdentifier>{46476198-3a9d-4e10-a590-d1b0ec8082e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\node\base">
+      <UniqueIdentifier>{e3662ac2-c081-4b90-a829-b16c7d403626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\map">
+      <UniqueIdentifier>{c3d2068c-30fe-4946-a85f-81c17ef951e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -60,6 +72,12 @@
     <ClInclude Include="block\EarthBlock.h">
       <Filter>block</Filter>
     </ClInclude>
+    <ClInclude Include="map\node\nodebase\NodeBase.h">
+      <Filter>map\node\base</Filter>
+    </ClInclude>
+    <ClInclude Include="map\map\MapNodeGrid.h">
+      <Filter>map\map</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -85,6 +103,12 @@
     </ClCompile>
     <ClCompile Include="block\EarthBlock.cpp">
       <Filter>block</Filter>
+    </ClCompile>
+    <ClCompile Include="map\node\nodebase\NodeBase.cpp">
+      <Filter>map\node\base</Filter>
+    </ClCompile>
+    <ClCompile Include="map\map\MapNodeGrid.cpp">
+      <Filter>map\map</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
