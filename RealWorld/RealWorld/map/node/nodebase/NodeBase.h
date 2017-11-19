@@ -8,106 +8,52 @@ class NodeBase
 public:
 	NodeBase();
 	~NodeBase();
-	std::shared_ptr<NodeBase> Down()
-	{
-		return m_Down;
-	}
+	NodeBase* Down();
 
-	void Down(std::shared_ptr<NodeBase> value)
-	{
-		m_Down = value;
-	}
+	void Down(NodeBase* value);
 
-	std::shared_ptr<NodeBase> Up()
-	{
-		return m_Up;
-	}
+	NodeBase* Up();
 
-	void Up(std::shared_ptr<NodeBase> value)
-	{
-		m_Up = value;
-	}
+	void Up(NodeBase* value);
 
-	std::shared_ptr<NodeBase> Left()
-	{
-		return m_Left;
-	}
+	NodeBase* Left();
 
-	void Left(std::shared_ptr<NodeBase> value)
-	{
-		m_Left = value;
-	}
+	void Left(NodeBase* value);
 
-	std::shared_ptr<NodeBase> Right()
-	{
-		return m_Right;
-	}
+	NodeBase* Right();
 
-	void Right(std::shared_ptr<NodeBase> value)
-	{
-		m_Right = value;
-	}
+	void Right(NodeBase* value);
 
-	std::shared_ptr<NodeBase> Front()
-	{
-		return m_Front;
-	}
+	NodeBase* Front();
 
-	void Front(std::shared_ptr<NodeBase> value)
-	{
-		m_Front = value;
-	}
+	void Front(NodeBase* value);
 
-	std::shared_ptr<NodeBase> Back()
-	{
-		return m_Back;
-	}
+	NodeBase* Back();
 
-	void Back(std::shared_ptr<NodeBase> value)
-	{
-		m_Back = value;
-	}
+	void Back(NodeBase* value);
 
-	double X()
-	{
-		return m_X;
-	}
+	int X();
 
-	void X(double value)
-	{
-		m_X = value;
-	}
+	void X(int value);
 
-	double Y()
-	{
-		return m_Y;
-	}
+	int Y();
 
-	void Y(double value)
-	{
-		m_Y = value;
-	}
+	void Y(int value);
 
-	double Z()
-	{
-		return m_Z;
-	}
+	int Z();
 
-	void Z(double value)
-	{
-		m_Z = value;
-	}
+	void Z(int value);
 
 private:
-	std::shared_ptr<NodeBase> m_Down;
-	std::shared_ptr<NodeBase> m_Up;
-	std::shared_ptr<NodeBase> m_Left;
-	std::shared_ptr<NodeBase> m_Right;
-	std::shared_ptr<NodeBase> m_Front;
-	std::shared_ptr<NodeBase> m_Back;
+	NodeBase* m_Down;
+	NodeBase* m_Up;
+	NodeBase* m_Left;
+	NodeBase* m_Right;
+	NodeBase* m_Front;
+	NodeBase* m_Back;
 
-	double m_X;
-	double m_Y;
-	double m_Z;
+	int m_X;
+	int m_Y;
+	int m_Z;
 };
 

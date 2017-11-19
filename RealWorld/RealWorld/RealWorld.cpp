@@ -6,19 +6,19 @@
 
 #include <iostream>
 
-#include "..\RealWorld\map\map\MapNodeGrid.h"
+#include "..\RealWorld\map\map\MapCube.h"
 
 
 int main()
 {
-	MapNodeGrid testMapGrid;
-	testMapGrid.Init(1024, 1024);
 
-	std::cout << "node size is :" <<sizeof(NodeBase)<< std::endl;
-
-	std::cout<< "cur grid size is : " <<testMapGrid.GetSize() <<std::endl ;
-
+	std::cout<< "mapnode size si "<< sizeof(NodeBase) <<std::endl;
+	MapCube cube;
+	cube.Init(1024, 1024, 1);
 	::system("Pause");
+	cube.Release();
+	::system("Pause");
+
     return 0;
 }
 

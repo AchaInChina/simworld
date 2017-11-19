@@ -78,6 +78,9 @@
     <ClInclude Include="map\map\MapNodeGrid.h">
       <Filter>map\map</Filter>
     </ClInclude>
+    <ClInclude Include="map\map\MapCube.h">
+      <Filter>map\map</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -108,6 +111,9 @@
       <Filter>map\node\base</Filter>
     </ClCompile>
     <ClCompile Include="map\map\MapNodeGrid.cpp">
+      <Filter>map\map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\map\MapCube.cpp">
       <Filter>map\map</Filter>
     </ClCompile>
   </ItemGroup>

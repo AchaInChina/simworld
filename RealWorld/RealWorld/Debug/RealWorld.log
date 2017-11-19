@@ -1,6 +1,1 @@
-﻿  RealWorld.cpp
-  正在生成代码...
-  正在跳过...(未检测到相关更改)
-  MapNodeGrid.cpp
-  RealWorld.vcxproj -> D:\sage\simworld\simworld\RealWorld\Debug\RealWorld.exe
-  RealWorld.vcxproj -> D:\sage\simworld\simworld\RealWorld\Debug\RealWorld.pdb (Partial PDB)
+﻿Debug\AtomBlockBase.obj : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
