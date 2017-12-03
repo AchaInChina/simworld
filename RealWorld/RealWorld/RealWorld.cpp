@@ -8,6 +8,9 @@
 
 #include "..\RealWorld\map\map\MapCube.h"
 
+#include "gui\\winmod\WindowModule.h"
+
+#undef main 
 
 int main()
 {
@@ -18,6 +21,25 @@ int main()
 	::system("Pause");
 	cube.Release();
 	::system("Pause");
+
+	WindowModule sdltest;
+	sdltest.Init();
+	sdltest.OpenWindow("helloworld", 1024, 1024);
+	sdltest.EnableGL();
+
+	sdltest.ShowRed();
+	sdltest.UpdateShow();
+	sdltest.ShowDelay(1000);
+	sdltest.ShowGreen();
+	sdltest.UpdateShow();
+	sdltest.ShowDelay(1000);
+	sdltest.ShowBlue();
+	sdltest.UpdateShow();
+	sdltest.ShowDelay(1000);
+
+	sdltest.ReleaseGL();
+	sdltest.CloseWindow();
+	sdltest.Release();
 
     return 0;
 }

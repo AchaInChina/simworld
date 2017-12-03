@@ -43,6 +43,9 @@
     <Filter Include="map\map">
       <UniqueIdentifier>{c3d2068c-30fe-4946-a85f-81c17ef951e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{c227e987-1188-48bf-8e4c-a792f1586512}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -81,6 +84,9 @@
     <ClInclude Include="map\map\MapCube.h">
       <Filter>map\map</Filter>
     </ClInclude>
+    <ClInclude Include="gui\winmod\WindowModule.h">
+      <Filter>window</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -115,6 +121,9 @@
     </ClCompile>
     <ClCompile Include="map\map\MapCube.cpp">
       <Filter>map\map</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\winmod\WindowModule.cpp">
+      <Filter>window</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

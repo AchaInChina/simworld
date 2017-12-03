@@ -3,6 +3,7 @@ c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\atomblockbase.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\earthblock.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\solidblock.obj
+c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\mapcube.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\mapnodegrid.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\nodebase.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.obj
@@ -10,23 +11,23 @@ c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\surfacebase.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\earthsurface.obj
 c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\solidsurface.obj
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\mapcube.obj
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\vc140.idb
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\vc140.pdb
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\debug\realworld.pdb
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\cl.command.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\cl.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\cl.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link-cvtres.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link-cvtres.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link-rc.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link-rc.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340-cvtres.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340-cvtres.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340-rc.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340-rc.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.5340.write.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.command.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.read.1.tlog
-c:\users\administrator\documents\visual studio 2017\projects\simworld\realworld\realworld\debug\realworld.tlog\link.write.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\atomblockbase.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\earthblock.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\earthsurface.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\mapcube.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\mapnodegrid.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\nodebase.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\solidblock.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\solidsurface.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\stdafx.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\surfacebase.obj
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\vc141.idb
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\vc141.pdb
+h:\业余爱好\project\simworld\simworld\realworld\debug\realworld.pdb
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\cl.command.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\cl.read.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\cl.write.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\link.command.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\link.read.1.tlog
+h:\业余爱好\project\simworld\simworld\realworld\realworld\debug\realworld.tlog\link.write.1.tlog
