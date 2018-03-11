@@ -46,6 +46,9 @@
     <Filter Include="window">
       <UniqueIdentifier>{c227e987-1188-48bf-8e4c-a792f1586512}</UniqueIdentifier>
     </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{b4d769f5-7cca-46ff-8f6b-402e10eeeac4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -87,6 +90,9 @@
     <ClInclude Include="gui\winmod\WindowModule.h">
       <Filter>window</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\FastNoise.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -124,6 +130,9 @@
     </ClCompile>
     <ClCompile Include="gui\winmod\WindowModule.cpp">
       <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\FastNoise.cpp">
+      <Filter>algorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

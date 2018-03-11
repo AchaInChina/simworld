@@ -1,3 +1,16 @@
-﻿  WindowModule.cpp
+﻿  SolidSurface.cpp
+  EarthSurface.cpp
+  SurfaceBase.cpp
+  stdafx.cpp
+  RealWorld.cpp
+  NodeBase.cpp
+  MapNodeGrid.cpp
+  MapCube.cpp
+h:\业余爱好\project\simworld\simworld\realworld\realworld\map\map\mapcube.cpp(43): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  WindowModule.cpp
+  SolidBlock.cpp
+  EarthBlock.cpp
+  AtomBlockBase.cpp
+  正在生成代码...
   RealWorld.vcxproj -> H:\业余爱好\project\simworld\simworld\RealWorld\x64\Debug\RealWorld.exe
   RealWorld.vcxproj -> H:\业余爱好\project\simworld\simworld\RealWorld\x64\Debug\RealWorld.pdb (Partial PDB)

@@ -36,6 +36,14 @@ public:
 	* and quits the application */
 	void sdldie(const char *msg);
 
+	//************************************
+	// Method:    checkSDLError
+	// FullName:  WindowModule::checkSDLError
+	// Access:    public 
+	// Returns:   void
+	// Qualifier:
+	// Parameter: int line
+	//************************************
 	void checkSDLError(int line = -1);
 private:
 	SDL_Window* m_MainWindow; /* Our window handle */

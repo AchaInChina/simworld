@@ -17,14 +17,12 @@ int main()
 
 	std::cout<< "mapnode size si "<< sizeof(NodeBase) <<std::endl;
 	MapCube cube;
-	cube.Init(1024, 1024, 1);
-	::system("Pause");
+	cube.Init(512, 512, 5);
 	cube.Release();
-	::system("Pause");
 
 	WindowModule sdltest;
 	sdltest.Init();
-	sdltest.OpenWindow("helloworld", 1024, 1024);
+	sdltest.OpenWindow("helloworld", 840, 680);
 	sdltest.EnableGL();
 
 	sdltest.ShowRed();
@@ -40,6 +38,8 @@ int main()
 	sdltest.ReleaseGL();
 	sdltest.CloseWindow();
 	sdltest.Release();
+
+	::system("Pause");
 
     return 0;
 }
